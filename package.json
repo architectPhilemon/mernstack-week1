@@ -1,0 +1,13 @@
+{
+  "name": "plp-bookstore",
+  "version": "1.0.0",
+  "description": "PLP Bookstore MongoDB Project",
+  "main": "queries.js",
+  "scripts": {
+    "setup": "node insert_books.js",
+    "query": "node queries.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+} 
